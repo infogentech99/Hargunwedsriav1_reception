@@ -3,6 +3,7 @@ import { useState, useRef } from "react";
 import FallingLamps from "@/app/components/FallingLamps";
 import CoupleMessage from "@/app/components/CoupleMessage";
 import ThingsToKnow from "@/app/components/ThingsToKnow";
+import MarriageCountdown from "@/app/components/MarriageCountdown";
 export default function Home() {
   const events = [
     {
@@ -57,7 +58,7 @@ export default function Home() {
   ];
 
 
- 
+
 
 
 
@@ -196,7 +197,7 @@ export default function Home() {
 
 
         <div className="flex justify-center mt-10 pb-24">
-          <img src="/assets/kripal.png" alt="" className="lg:h-120 lg:w-130 w-60 h-60" />
+          <img src="/assets/kripal.png" alt="" className="lg:h-120 lg:w-125 w-60 h-60" />
         </div>
 
 
@@ -210,10 +211,15 @@ export default function Home() {
         </div>
       </div>
 
-      <CoupleMessage/>
-<ThingsToKnow/>
+      <CoupleMessage />
+      <ThingsToKnow />
 
+      <div className="bg-[url('/assets/bridewithmoon.png')] bg-cover bg-no-repeat">
+        <div className="lg:h-325 md:h-180 h-92">
 
+        </div>
+      </div>
+      <MarriageCountdown />
 
     </>
   );

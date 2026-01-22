@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 const lamps = Array.from({ length: 26 });
 
 export default function FallingLamps() {
-  const [fallHeight, setFallHeight] = useState("450vh");
-  const [containerHeight, setContainerHeight] = useState("500vh");
+  const [fallHeight, setFallHeight] = useState("585vh");
+  const [containerHeight, setContainerHeight] = useState("535vh");
 
   useEffect(() => {
     if (window.innerWidth < 640) {
@@ -16,8 +16,8 @@ export default function FallingLamps() {
       setFallHeight("300vh");
       setContainerHeight("350vh");
     } else {
-      setFallHeight("450vh");
-      setContainerHeight("500vh");
+      setFallHeight("585vh");
+      setContainerHeight("535vh");
     }
   }, []);
 
