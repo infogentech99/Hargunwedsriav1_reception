@@ -70,7 +70,7 @@ export default function CoupleMessage() {
                                 <img
                                     src={item.img}
                                     alt=""
-                                    className="w-full lg:h-125 h-120 object-cover lg:rounded-[40px] rounded-[30px]"
+                                    className="w-full lg:h-125 h-120 object-cover rounded-[40px]"
                                 />
                             </SwiperSlide>
                         ))}
