@@ -136,7 +136,7 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0 pt-150">
-            <h2 className="text-white text-sm sm:text-base">
+            <h2 className="text-white text-sm sm:text-base ">
               ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
               ਪੁਰਖੁ ਨਿਰਭਉ <br />
               ਨਿਰਵੈਰੁ…
@@ -148,14 +148,14 @@ export default function Home() {
               className="w-40 sm:w-52 h-auto"
             />
 
-            <h2 className="text-white lg:text-3xl sm:text-2xl font-cormorant-upright">
+            <h2 className="text-white lg:text-3xl md:text-2xl text-[18px] font-cormorant-upright">
               With the heavenly blessings of <br />
               Our late grandparents,<br/> Sardarni Parkash Kaur and Sardar Avtar Singh.
             </h2>
 
             <hr className="lg:w-24 w-16 border-white my-4" />
 
-            <h2 className="text-white font-cormorant-upright lg:text-3xl sm:text-2xl">
+            <h2 className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[18px]">
               The Kataria Family
             </h2>
           </div>
@@ -167,7 +167,7 @@ export default function Home() {
               INVITES
             </h2>
 
-            <p className="text-white font-cormorant-upright lg:text-3xl sm:text-2xl mt-6">
+            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[18px] mt-6">
               You to join us in the wedding celebrations of
             </p>
 
@@ -176,7 +176,7 @@ export default function Home() {
               HARGUN
             </h2>
 
-            <p className="text-white font-cormorant-upright lg:text-3xl sm:text-2xl mt-6">
+            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[18px] mt-6">
               Son of <br /> Amarjeet Singh and Gurmeet Kaur
             </p>
 
@@ -187,11 +187,11 @@ export default function Home() {
             </h2>
 
 
-            <p className="text-white font-cormorant-upright lg:text-3xl sm:text-2xl mt-6">
+            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl mt-6 text-[18px]">
               D/O <br /> (Insert Names)
 
             </p>
-            <p className="text-white font-cormorant lg:text-3xl sm:text-2xl mt-8">
+            <p className="text-white font-cormorant lg:text-3xl md:text-2xl text-[20px] mt-8">
               On the following events
             </p>
           </div>
