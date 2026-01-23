@@ -247,7 +247,7 @@ export default function Home() {
 
       <div className="md:hidden bg-[url('/assets/group_mobile.png')] bg-cover bg-no-repeat">
         <div className="h-230">
-          <h1 className="text-xl text-center text-[#E1EF1E] pt-48 font-cormorant">
+          <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
           </h1>
           <h2 className="text-6xl text-center text-[#EAD670] font-cormorant mt-6">
