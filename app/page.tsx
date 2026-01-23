@@ -103,7 +103,20 @@ export default function Home() {
 
       <audio ref={audioRef} src="/assets/background_song.mp3" loop />
       {/* hero section */}
-      <div className="bg-[url('/assets/lavaan.png')] bg-cover bg-center bg-no-repeat w-full px-4 sm:px-8  overflow-hidden relative">
+     <div
+  className="
+    bg-[url('/assets/mob-lavaan.png')]
+    md:bg-[url('/assets/lavaan.png')]
+    bg-cover
+    bg-no-repeat
+    bg-top
+    md:bg-center
+    w-full
+    px-4 sm:px-8
+    overflow-hidden
+    relative
+  "
+>
         {/* Decorative Lamps - Natural Flow Pattern */}
         {/* Left-to-Right Lamps - Less crowded */}
         <FloatingLamp className="absolute top-10 left-8 w-40 h-40 transform rotate-12 opacity-90" />
@@ -133,14 +146,14 @@ export default function Home() {
         <div className=" pt-24 pb-20 relative z-10">
 
           <h2 className="text-white font-cormorant text-center leading-tight
-            text-[60px] sm:text-6xl lg:text-[80px] pb-350">
+            text-[35px] sm:text-5xl lg:text-[80px] md:pb-350">
             HARGUN <br />
             <span className="text-xl sm:text-3xl tracking-[10px]">WEDS</span>
             <br />
             RIA
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0 pt-150">
+          <div className="flex flex-col items-center text-center gap-6 mt-0 pt-50 md:pt-150">
             <h2 className="text-white text-sm sm:text-base ">
               ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
               ਪੁਰਖੁ ਨਿਰਭਉ <br />
