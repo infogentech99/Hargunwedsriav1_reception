@@ -77,7 +77,8 @@ export default function CoupleMessage() {
                 </div>
                 <div className="flex flex-col-1 justify-center items-center mt-16">
                     <div className="bg-[url('/assets/seap.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
-                        <h1 className="lg:text-6xl md:text-5xl text-[44px] leading-10 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant-upright">Looking <br /> forward to <br />see you</h1>
+                        <h1 className="lg:text-6xl md:text-5xl text-[44px] leading-10 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant-upright">
+                            Looking <br /> forward to <br />seeing you</h1>
                         <p className="lg:text-[22px] text-[14px] text-[#3c2267] mt-6 text-center font-cormorant">
                             Click the link to RSVP
                         </p>

@@ -105,7 +105,7 @@ export default function Home() {
       {/* hero section */}
      <div
   className="
-    bg-[url('/assets/mob_lavaan_new.png')]
+    bg-[url('/assets/mob_back_lavaan.png')]
     md:bg-[url('/assets/lavaan.png')]
     bg-cover
     bg-no-repeat
@@ -146,7 +146,7 @@ export default function Home() {
         <div className=" pt-24 pb-20 relative z-10">
 
           <h2 className="text-white font-cormorant text-center leading-tight
-            text-[35px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0">
+            text-[40px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0">
             HARGUN <br />
             <span className="text-xl sm:text-3xl tracking-[10px]">WEDS</span>
             <br />
@@ -154,7 +154,7 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  pt-150">
-            <h2 className="text-white text-sm sm:text-base ">
+            <h2 className="text-[#E6D2FF] text-sm sm:text-base text-center">
               ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
               ਪੁਰਖੁ ਨਿਰਭਉ <br />
               ਨਿਰਵੈਰੁ…
@@ -166,51 +166,51 @@ export default function Home() {
               className="w-40 sm:w-52 h-auto"
             />
 
-            <h2 className="text-white lg:text-[30px] md:text-2xl text-[18px] font-cormorant-upright">
+            <h2 className="text-[#E6D2FF] lg:text-[30px] md:text-2xl text-[18px] font-cormorant-upright">
               With the heavenly blessings of <br />
-              Our late grandparents,<br/> Sardarni Parkash Kaur and Sardar Avtar Singh.
+              Our late grandparents,<br/> Sdn. Parkash Kaur and Sd. Avtar Singh.
             </h2>
 
-            <hr className="lg:w-24 w-16 border-white my-4" />
+            <hr className="lg:w-24 w-16 border-[#E6D2FF] my-4" />
 
-            <h2 className="text-white font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px]">
+            <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[22px]">
               The Kataria Family
             </h2>
           </div>
 
 
           <div className="mt-8 text-center">
-            <h2 className="text-white font-cormorant 
-            text-5xl sm:text-7xl lg:text-[100px] leading-tight lg:tracking-wide tracking-wider">
+            <h2 className="text-[#E6D2FF] font-cormorant 
+            text-3xl sm:text-5xl lg:text-[60px] leading-tight lg:tracking-wide tracking-wider">
               INVITES
             </h2>
 
-            <p className="text-white font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-6">
-              You to join us in the wedding celebrations of
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-6">
+              you to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-white font-cormorant-upright text-center mt-10
-            md:text-5xl text-[50px] lg:text-[100px] leading-tight">
+            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-10
+            md:text-5xl text-[60px] lg:text-[100px] leading-tight font-bold">
               HARGUN
             </h2>
 
-            <p className="text-white font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-6">
-              Son of <br /> Amarjeet Singh and Gurmeet Kaur
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-5">
+              S/O <br /> Amarjeet Singh and Gurmeet Kaur
             </p>
 
-            <h2 className="text-white font-cormorant-upright text-center mt-10
-            text-5xl sm:text-7xl lg:text-[100px] leading-tight">
-            <span className="text-white font-cormorant-upright text-center lg:mt-10 mt-6
+            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-10
+            text-[60px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
+            <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-6
             md:text-5xl text-[80px] lg:text-[150px] leading-tight">&</span>   <br />
               RIA
             </h2>
 
 
-            <p className="text-white font-cormorant-upright lg:text-[30px] md:text-2xl mt-6 text-[18px]">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-6 text-[18px]">
               D/O <br /> (Insert Names)
 
             </p>
-            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[22px] mt-8">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-3xl md:text-2xl text-[22px] mt-8">
               On the following events
             </p>
           </div>
@@ -225,11 +225,11 @@ export default function Home() {
                     className="lg:w-80 w-95 sm:w-76 h-auto"
                   />
 
-                  <h2 className="text-white font-cormorant lg:text-[45px] md:text-2xl text-[35px] mt-4">
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4">
                     {event.title}
                   </h2>
 
-                  <p className="text-white font-cormorant text-[14px] sm:text-base leading-5 mt-2">
+                  <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base leading-5 mt-2">
                     {event.date} <br />
                     {event.venue} <br />
                     {event.time}
@@ -237,7 +237,7 @@ export default function Home() {
 
                   <a
                     href={event.link}
-                    className="text-white underline text-sm mt-2 font-cormorant"
+                    className="text-[#E6D2FF] underline text-sm mt-2 font-cormorant"
                     target="_blank"
                   >
                     See the route
@@ -255,8 +255,8 @@ export default function Home() {
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
           </h1>
-          <h2 className="lg:text-[130px] text-2xl text-center text-[#EAD670] lg:pt-12 font-cormorant-upright leading-12">
-            <span className="text-[#EB3DB9] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#FF1100] font-cormorant-upright ">Groom</span>
+          <h2 className="lg:text-[130px] text-2xl text-center text-[#00EAFF] lg:pt-12 font-cormorant-upright leading-12">
+            <span className="text-[#ADBAFF] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">Groom</span>
           </h2>
         </div>
       </div>
@@ -269,8 +269,9 @@ export default function Home() {
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
           </h1>
-          <h2 className="text-[100px] text-center text-[#EAD670] font-cormorant-upright mt-6 leading-12"> <span className="text-[#EB3DB9] font-cormorant-upright">
-            Bride </span><br /> & <br /><span className="text-[#FF1100] font-cormorant-upright "> Groom </span>
+          <h2 className="text-[100px] text-center text-[#00EAFF] font-cormorant-upright mt-6 leading-12">
+             <span className="text-[#ADBAFF] font-cormorant-upright">
+            Bride </span><br /> & <br /><span className="text-[#3FA9FF] font-cormorant-upright "> Groom </span>
           </h2>
         </div>
       </div>
