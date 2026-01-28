@@ -111,6 +111,7 @@ body {
 .floating-lamp {
   position: absolute;
   animation-name: lampFlow;
+  /* animation-duration: 2.5s; */
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   will-change: transform, opacity;

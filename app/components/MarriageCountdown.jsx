@@ -45,8 +45,8 @@ export default function MarriageCountdown() {
                     </p>
                     <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
                         <img src="/assets/instagram.png" alt="" className="h-10 w-10"/>
-                        <p className="lg:text-[22px] text-[18px] text-[#DEE6FF] text-center font-cormorant-upright">
-                        Follow Invite Arc on Instagram</p>
+                        {/* <p className="lg:text-[22px] text-[18px] text-[#DEE6FF] text-center font-cormorant-upright">
+                        Follow Invite Arc on Instagram</p> */}
                     </div>
                     <p className="lg:text-[16px] text-xl text-[#DEE6FF] mt-6 text-center font-cormorant-upright">
                         © Invite Arc 2026 </p>

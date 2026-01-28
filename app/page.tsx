@@ -8,7 +8,9 @@ import MarriageCountdown from "@/app/components/MarriageCountdown";
 const FloatingLamp = ({ className, style, reverse = false }: { className: string; style?: React.CSSProperties; reverse?: boolean }) => {
   // Memoize random values to prevent recalculation on re-renders
   const lampValues = useMemo(() => {
-    const duration = 60 + Math.random() * 40; // 60–100s (very slow flow)
+    // const duration = 60 + Math.random() * 40; // 60–100s (very slow flow)
+    // const duration = 40 + Math.random() * 10; // 40–50s
+    const duration = 60 + Math.random() * 10; // 60–70s
     const delay = Math.random() * 15;
 
     // depth feel - dramatic size variety
@@ -130,6 +132,20 @@ export default function Home() {
         <FloatingLamp className="absolute top-170 left-160 w-32 h-32 transform rotate-18 opacity-80" />
         <FloatingLamp className="absolute top-190 left-180 w-40 h-40 transform rotate-28 opacity-85" />
 
+
+        <FloatingLamp className="hidden lg:block absolute top-50 left-40 w-40 h-40 transform rotate-30 opacity-85" />
+        <FloatingLamp className="hidden lg:block absolute top-60 left-60 w-38 h-38 transform rotate-15 opacity-80" />
+        <FloatingLamp className="hidden lg:block absolute top-80 left-80 w-34 h-34 transform rotate-25 opacity-75" />
+        <FloatingLamp className="hidden lg:block absolute top-100 left-100 w-40 h-40 transform rotate-10 opacity-85" />
+        <FloatingLamp className="hidden lg:block absolute top-120 left-120 w-36 h-36 transform rotate-35 opacity-75" />
+        <FloatingLamp className="hidden lg:block absolute top-140 left-140 w-30 h-30 transform rotate-22 opacity-85" />
+        <FloatingLamp className="hidden lg:block absolute top-160 left-160 w-32 h-32 transform rotate-18 opacity-80" />
+        <FloatingLamp className="hidden lg:block absolute top-180 left-180 w-40 h-40 transform rotate-28 opacity-85" />
+
+
+
+
+
         {/* Right-to-Left Lamps - Less crowded */}
         <FloatingLamp className="absolute top-20 right-12 w-32 h-32 transform -rotate-6 opacity-85" reverse={true} />
         <FloatingLamp className="absolute top-40 right-32 w-28 h-28 transform -rotate-12 opacity-75" reverse={true} />
@@ -142,11 +158,25 @@ export default function Home() {
         <FloatingLamp className="absolute top-180 right-172 w-36 h-36 transform -rotate-22 opacity-85" reverse={true} />
         <FloatingLamp className="absolute top-200 right-192 w-30 h-30 transform -rotate-35 opacity-85" reverse={true} />
 
+
+        <FloatingLamp className="hidden lg:block absolute top-30 right-12 w-40 h-40 transform -rotate-6 opacity-85" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-50 right-32 w-40 h-40 transform -rotate-12 opacity-75" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-70 right-52 w-36 h-36 transform -rotate-20 opacity-90" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-90 right-72 w-30 h-30 transform -rotate-8 opacity-85" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-110 right-92 w-34 h-34 transform -rotate-15 opacity-80" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-130 right-112 w-38 h-38 transform -rotate-25 opacity-90" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-150 right-132 w-40 h-40 transform -rotate-18 opacity-80" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-170 right-152 w-32 h-32 transform -rotate-30 opacity-75" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-190 right-172 w-36 h-36 transform -rotate-22 opacity-85" reverse={true} />
+
+
+
+
         {/* <FallingLamps /> */}
         <div className=" pt-24 pb-20 relative z-10">
 
           <h2 className="text-[#DEE6FF] font-cormorant text-center leading-tight
-  text-[50px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0
+     text-[50px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0
   flex flex-col items-center gap-y-6">
 
             <span>HARGUN</span>
