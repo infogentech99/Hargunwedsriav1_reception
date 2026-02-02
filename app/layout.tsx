@@ -14,6 +14,8 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hargunwedsria.invitearc.com"),
+
   openGraph: {
     title: "Hargun Weds Ria - InviteArc",
     description: "Premium wedding invitation templates by InviteArc",
@@ -30,15 +32,15 @@ export const metadata: Metadata = {
     type: "website",
   },
 
-twitter: {
-  card: "summary_large_image",
-  title: "Hargun Weds Ria - InviteArc",
-  description: "Premium wedding invitation templates by InviteArc",
-  images: [
-    "https://res.cloudinary.com/dx2di0mvx/image/upload/v1769836796/og_img_jniuwj.jpg",
-  ],
-},
 
+  twitter: {
+    card: "summary_large_image",
+    title: "Hargun Weds Ria - InviteArc",
+    description: "Premium wedding invitation templates by InviteArc",
+    images: [
+      "https://res.cloudinary.com/dx2di0mvx/image/upload/v1769836796/og_img_jniuwj.jpg",
+    ],
+  },
 
 };
 
