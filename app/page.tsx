@@ -42,25 +42,7 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    {
-      title: "Sagan & Cocktail",
-      image: "/assets/cocktail.png",
-      date: "Sunday, March 8th 2026",
-      venue: "AKASA",
-      venue_address: "Main Road, Opposite Petrol Pump, Kapashere Extn, Pushpanjali Farms, New Delhi, Delhi, 110061",
-      time: "6:30 pm onwards",
-      link: "https://maps.app.goo.gl/uNMNPpgk6ukDJnZe7",
-    },
-
-    {
-      title: "Wedding/Anand Karaj",
-      image: "/assets/anand.png",
-      date: "Monday, March 9th 2026",
-      venue: "THE NIKUNJ",
-      venue_address: "Emperor Hall NH 8, 22nd Milestone, near IGI Airport, New Delhi, Delhi - 110038",
-      time: "8pm Onwards",
-      link: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
-    },
+    
     {
       title: "Reception",
       image: "/assets/reception.png",
@@ -261,38 +243,41 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex justify-center mt-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-12 sm:gap-16">
-              {events.map((event, i) => (
-                <div key={i} className="flex flex-col items-center text-center">
-                  <img
-                    src={event.image}
-                    alt={event.title}
-                    className="lg:w-80 w-95 sm:w-76 h-auto"
-                  />
+         <div className="flex justify-center mt-20">
+  <div className="grid grid-cols-1 gap-12 justify-items-center">
+    {events.map((event, i) => (
+      <div key={i} className="flex flex-col items-center text-center max-w-md">
+        <img
+          src={event.image}
+          alt={event.title}
+          className="w-full max-w-sm h-auto"
+        />
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4">
-                    {event.title}
-                  </h2>
+        <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4">
+          {event.title}
+        </h2>
 
-                  <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base leading-5 mt-2">
-                   <span className="text-[18px]">{event.date}</span>  <br />
-                   <span className="text-[16px]"> {event.venue}</span> <br />
-                    {event.venue_address} <br />
-                   <span className="text-[16px]">  {event.time} </span>
-                  </p>
+        <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base leading-5 mt-2">
+          <span className="text-[18px]">{event.date}</span> <br />
+          <span className="text-[16px]">{event.venue}</span> <br />
+          {event.venue_address} <br />
+          <span className="text-[16px]">{event.time}</span>
+        </p>
 
-                  <a
-                    href={event.link}
-                    className="text-[#E6D2FF] underline text-sm mt-2 font-cormorant"
-                    target="_blank"
-                  >
-                    See the route
-                  </a>
-                </div>
-              ))}
-            </div>
-          </div>
+        <a
+          href={event.link}
+          className="text-[#E6D2FF] underline text-sm mt-2 font-cormorant"
+          target="_blank"
+        >
+          See the route
+        </a>
+      </div>
+    ))}
+  </div>
+</div>
+
+
+          
         </div>
       </div>
 
