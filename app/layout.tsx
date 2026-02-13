@@ -14,16 +14,16 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://invitearc-template2.vercel.app/"),
+  metadataBase: new URL("https://invitearc-harguntemplate.vercel.app/"),
 
   openGraph: {
     title: "Hargun Weds Ria - InviteArc",
     description: "Premium wedding invitation templates by InviteArc",
-    url: "https://invitearc-template2.vercel.app/",
+    url: "https://invitearc-harguntemplate.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
-        url: "/og.png",
+        url: "/og.jpg",
         width: 1200,
         height: 630,
         alt: "Hargun Weds Ria Invitation",
@@ -37,12 +37,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hargun Weds Ria - InviteArc",
     description: "Premium wedding invitation templates by InviteArc",
-    images: ["/og.png"],
+    images: ["/og.jpg"],
   },
 
  other: {
-    "og:image:secure_url": "https://invitearc-template2.vercel.app/og.png",
-    "og:image:type": "image/png",
+    "og:image:secure_url": "https://invitearc-harguntemplate.vercel.app/og.jpg",
+    "og:image:type": "image/jpg",
   },
 
 
