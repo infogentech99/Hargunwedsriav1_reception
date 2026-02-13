@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://invitearc-harguntemplate.vercel.app/"),
+  metadataBase: new URL("https://hargunwedsriav1-reception.vercel.app/"),
 
   openGraph: {
     title: "Hargun & Ria ",
     description: "Join as they begin their forever.",
-    url: "https://invitearc-harguntemplate.vercel.app/",
+    url: "https://hargunwedsriav1-reception.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://invitearc-harguntemplate.vercel.app/og.jpg",
+    "og:image:secure_url": "https://hargunwedsriav1-reception.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 
