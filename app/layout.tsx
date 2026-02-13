@@ -37,12 +37,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hargun Weds Ria - InviteArc",
     description: "Premium wedding invitation templates by InviteArc",
-    images: ["/og.jpg"],
+    images: ["/og.png"],
   },
 
  other: {
-    "og:image:secure_url": "https://hargunwedsria.invitearc.com/og.jpg",
-    "og:image:type": "image/jpeg",
+    "og:image:secure_url": "https://hargunwedsria.invitearc.com/og.png",
+    "og:image:type": "image/png",
   },
 
 
